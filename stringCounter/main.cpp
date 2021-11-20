@@ -1,14 +1,14 @@
-//
-//  main.cpp
-//  stringCounter
-//
-//  Created by Abel Christy Anand on 11/20/21.
-//
-
+//Abel Anand
+//stringCounter
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#include <string>
+#include <stdio.h>
+#include <thread>
+using namespace std;
+int main() {
+    string input;
+    cout << "Feel free to enter anything you want\n";
+    cin >> input;
+    cout << input.length();
+    
 }
